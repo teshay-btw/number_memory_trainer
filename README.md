@@ -6,7 +6,7 @@ A modern, customizable trainer designed to improve fast memory, working memory, 
 - Tune every part of your session:
     - answer time
     - reveal/check time
-    - remember time
+    - time to remember
     - number of sequences
     - number of digits
 - Displaying accuracy and mistakes at each position after every sequence
@@ -16,11 +16,11 @@ A modern, customizable trainer designed to improve fast memory, working memory, 
 - Your best memorized sequence length with 100% accuracy
 - Your average accuracy from the latest session
 
-Perfect for tracking progress and pushing your limits.
+Perfect for tracking progress and pushing your limits
 
 ## Persistent Settings
-- All your preferences are saved automatically.
-- No need to reconfigure the trainer every time - just open it and start practicing.
+- All your preferences are saved automatically
+- No need to reconfigure the trainer every time - just open it and start practicing
 
 ## 🧠 What It Trains
 - Fast memory
