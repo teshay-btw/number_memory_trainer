@@ -30,7 +30,7 @@ Perfect for tracking progress and pushing your limits.
 
 Short, high‑pressure number sequences force your brain to encode information quickly and efficiently - exactly the skill needed for fast thinking, chess, programming, mental math, and more.
 
-## Scrennshots
+## Screenshots
 <img width="1002" height="882" alt="numbers_memorisation_xMiT6hhA47" src="https://github.com/user-attachments/assets/e32ecb7d-494d-4dae-a576-d0ecdcfd4762" />
 <img width="1002" height="882" alt="numbers_memorisation_Vt2c9WgLLE" src="https://github.com/user-attachments/assets/9c42548b-d954-4e65-aeb4-c2e40bf83d8e" />
 <img width="1002" height="882" alt="numbers_memorisation_Stb19uViK7" src="https://github.com/user-attachments/assets/fa6a6b75-7801-4c97-b9a5-134db9506b61" />
