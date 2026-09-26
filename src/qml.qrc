@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/qt/qml/numbers_memorisation">
+        <file>main.qml</file>
+	<file>Montserrat-ExtraBold.ttf</file>
+	<file>Raleway-VariableFont_wght.ttf</file>
+	<file>play_icon.png</file>
+	<file>list_icon.png</file>
+	<file>numbers_icon.png</file>
+	<file>background1.png</file>
+	<file>brain_icon.png</file>
+	<file>clock_icon.png</file>
+	<file>question_mark_icon.png</file>
+	<file>purple_tick_icon.png</file>
+	<file>menu_select_sound.wav</file>
+    </qresource>
+</RCC>
