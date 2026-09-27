@@ -129,6 +129,7 @@ Q_INVOKABLE void Backend::start_beginning_timer()
 
 void Backend::begin_session()
 {
+	avg_accuracy_last_session = 0;
 	auto delay = [&](int ms) {
 		QEventLoop loop;
 		QTimer::singleShot(ms, &loop, &QEventLoop::quit);

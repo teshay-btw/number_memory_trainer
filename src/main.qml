@@ -283,8 +283,7 @@ Window {
         rightPadding: 10
         height: 120
         width: 350
-        //visible: examples.visible ? false : true
-        
+        visible: examples.visible ? false : true
         
 
         Image {
@@ -383,6 +382,8 @@ Window {
                 if (error == false) {
                     examples.visible = true
                     backend.start_beginning_timer()
+                    
+                    
                 }
 
             }
@@ -439,6 +440,7 @@ Window {
                     } 
                     y: -7
                     id: button_number_of_sequences
+                    visible: examples.visible ? false : true
                     leftPadding: 35
                     rightPadding: 35
                     topPadding: 18
@@ -476,7 +478,7 @@ Window {
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
                         onClicked:  { 
-                            menu_number_of_sequences.popup(button_number_of_sequences, 190, 0)
+                            menu_number_of_sequences.popup(button_number_of_sequences, button_text_number_of_sequences.text == "Select" ? 185 : 140, 0)
                             
                         }
                         onEntered: {
@@ -691,6 +693,7 @@ Window {
                 }
                 Button {
                      
+                    visible: examples.visible ? false : true
                     MultiEffect {
                             source: button_number_of_digits
                             anchors.fill: button_number_of_digits
@@ -739,7 +742,7 @@ Window {
                         anchors.fill: parent
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
-                        onClicked: menu_number_of_digits.popup(button_text_number_of_digits, 160, 0)
+                        onClicked: menu_number_of_digits.popup(button_text_number_of_digits, button_text_number_of_digits.text == "Select" ? 150 : 105, 0)
                         onEntered: {
                             menu_select.play()
                             button_number_of_digits.scale = 0.95
@@ -1213,7 +1216,7 @@ Window {
                     }
                 }
                 Button {
-                     
+                     visible: examples.visible ? false : true
                     MultiEffect {
                         source: button_time_to_remember
                         anchors.fill: button_time_to_remember
@@ -1263,7 +1266,7 @@ Window {
                         cursorShape: Qt.PointingHandCursor
                         onClicked: menu_time_to_remember.popup(
                             button_text_time_to_remember,
-                            160,
+                            button_text_time_to_remember.text == "Select" ? 150 : 105,
                             0
                         )
                         onEntered: {
@@ -1728,7 +1731,7 @@ Window {
                     }
                 }
                 Button {
-                 
+                    visible: examples.visible ? false : true
                     MultiEffect {
                         source: button_time_to_answer
                         anchors.fill: button_time_to_answer
@@ -1776,7 +1779,7 @@ Window {
                         anchors.fill: parent
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
-                        onClicked: menu_time_to_answer.popup(button_time_to_answer, 190, button_time_to_answer.height)
+                        onClicked: menu_time_to_answer.popup(button_time_to_answer, button_text_time_to_answer.text == "Select" ? 185 : 140, button_time_to_answer.height)
                         onEntered: {
                             menu_select.play()
                             button_time_to_answer.scale = 0.95
@@ -2001,7 +2004,7 @@ Window {
                     }
                 }
                 Button {
-                    
+                    visible: examples.visible ? false : true
                     MultiEffect {
                         source: button_time_to_check_the_answer
                         anchors.fill: button_time_to_check_the_answer
@@ -2050,7 +2053,7 @@ Window {
                         anchors.fill: parent
                         hoverEnabled: true
                         cursorShape: Qt.PointingHandCursor
-                        onClicked: menu_time_to_check_the_answer.popup(button_time_to_check_the_answer, 190, button_time_to_check_the_answer.height)
+                        onClicked: menu_time_to_check_the_answer.popup(button_time_to_check_the_answer, button_text_time_to_check_the_answer.text == "Select" ? 185 : 140, button_time_to_check_the_answer.height)
                         onEntered: {
                             menu_select.play()
                             button_time_to_check_the_answer.scale = 0.95
